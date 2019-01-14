@@ -1,0 +1,39 @@
+<!-- 
+Submitted By: James Lau
+Submitted To: Tiff Nogueira
+Assignment: 2019 Winter Accerlerated Javascript - Project One
+Date Submitted: January 13, 2019
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project One - James Lau</title>
+  <link rel="shortcut icon" href="assets/stopWatch.ico" type="image/x-icon">  <!-- Stopwatch favicon -->
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet" type='text/css'> <!-- Font from Google Fonts-->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class ="settings">
+    <div class ="timer_settings">
+      <button data-sec ="300" class="timer_button">Take a Five! <br/>(5 mins.)</button>
+      <button data-sec ="900" class="timer_button">Coffee break! <br/>(15 mins.)</button>
+      <button data-sec ="1200" class="timer_button">Time to Stretch! <br/>(20 mins.)</button>
+      <button data-sec ="3600" class="timer_button">Lunch Time! <br/>(60 mins.)</button>
+      <button data-sec ="60" class="timer_button" id="add"> Not yet! <br/>Add a minute! </button>
+    </div>
+    <form name ="customForm" id="custom">
+      <input type="number" max="120" min="1" name="minutes" placeholder="Enter Minutes Here">
+    </form>
+    <div class ="timerDisplay">
+      <h1 class ="countdown"></h1> <!-- Where the countdown timer will be-->
+      <p class ="returnTime"></p> <!-- Weere the be back time will be -->
+      <button class ="reset" id ="reset_button">Reset</button>
+    </div>
+  </div>
+
+  <script src="scripts.js">
+  </script>
+</body>
+</html>

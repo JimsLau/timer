@@ -1,0 +1,108 @@
+/* Submitted By: James Lau
+Submitted To: Tiff Nogueira
+Assignment: 2019 Winter Accerlerated Javascript - Project One
+Date Submitted: January 13, 2019 */
+
+
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+*:focus {
+    outline: none;
+}
+
+html {
+    background: rgb(129, 225, 203);
+    background: linear-gradient(#019CFE,#4FAFEB, #9CD689, #42AE1F);
+}
+
+body {
+    margin:0;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+.display_Countdown {
+    font-weight: 100;
+    font-size: 20rem;
+    margin: 0;
+    color: #ffffff;
+}
+
+.settings {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+
+.timer_settings {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+input {
+       display:inline-block;
+       background: #ffffff; 
+       border-radius:50%;
+       opacity:0.86;
+       flex:1;
+       margin: 10px;
+       border:0;
+       padding: 2rem; */
+}
+
+input[type= "number"]  {
+    font-family: "Amatic SC", cursive;
+    font-size: 4rem;
+    min-width: 450px;
+}
+
+.timer_button, 
+.reset {
+       background: none;
+       border: 0;
+       cursor: pointer;
+       color: #ffffff;
+       font-size: 3rem;
+       text-transform: uppercase;
+       background: #5c686d;
+       border: 2px solid #c0c1c2;
+       padding: 1rem;
+       font-family: "Amatic SC", cursive;
+       transition: ease-in-out, 1s;
+}
+
+.timer_button:hover, 
+.reset:hover {
+       background: #b3bdc6;
+}
+
+.timerDisplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown {
+    font-size: 10rem;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.returnTime {
+    font-size: 10rem;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+
+
